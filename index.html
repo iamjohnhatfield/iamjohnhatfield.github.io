@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<title>John Hatfield</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+.w3-sidenav a,.w3-sidenav h4 {padding: 12px;}
+.w3-navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+body {
+    background-image: url("paper.gif");
+    background-color: #cccccc;
+}
+
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <ul class="w3-navbar w3-theme w3-top w3-left-align w3-large">
+    <li class="w3-opennav w3-right w3-hide-large">
+      <a class="w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    </li>
+    <li><a href="index.html" class="w3-theme-l1">Home</a></li>
+    <li class="w3-hide-small"><a href="page1.html" class="w3-hover-white">Dubstep</a></li>
+    <li class="w3-hide-small"><a href="page2.html" class="w3-hover-white">Vaporwave</a></li>
+    <li class="w3-hide-small"><a href="page3.html" class="w3-hover-white">Drum & Bass</a></li>
+    <li class="w3-hide-small"><a href="page4.html" class="w3-hover-white">Progressive House</a></li>
+    <li class="w3-hide-medium w3-hide-small"><a href="page5.html" class="w3-hover-white">Chillstep</a></li>
+    <li class="w3-hide-medium w3-hide-small"><a href="page6.html" class="w3-hover-white">Indie Electronic</a></li>
+  </ul>
+</div>
+
+<!-- Sidenav -->
+<nav class="w3-sidenav w3-collapse w3-theme-l5 w3-animate-left" style="z-index:3;width:250px;margin-top:51px;" id="mySidenav">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="close menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4><b>Menu</b></h4>
+  <a href="page1.html" class="w3-hover-black">Dubstep</a>
+  <a href="page2.html" class="w3-hover-black">Vaporwave</a>
+  <a href="page3.html" class="w3-hover-black">Drum & Bass</a>
+  <a href="page4.html" class="w3-hover-black">Progressive House</a>
+  <a href="page5.html" class="w3-hover-black">Chillstep</a>
+  <a href="page6.html" class="w3-hover-black">Indie Electronic</a>
+</nav>
+
+<!-- Overlay effect when opening sidenav on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidenav is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+    <img src="img/electric.jpg" alt="elec" style="width:650px;height:220px;">
+      <div class="w3-container">
+  <h1 class="w3-center w3-animate-bottom">What is Electronic Music?</h1>
+      </div>
+      <p>Electronic music is a genre on music that utilizes electronic musical instruments. This genre of music is usually made using certain kinds of devices such as synthesizers and computers. Electronic music has many genres and sub genres that create a different sound. This webiste takes a look at the differences amongst electronic music and the genres that were created from existing music styles.  
+     </p>
+     </div>
+    </div>
+  </div>
+
+<div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Genres & Sub-Genres of Electronic Music</h1>
+      <!-- table -->
+  <div class="w3-container w3-margin">
+        <table class="w3-table-all w3-hoverable"> 
+            <tr class="w3-dark-grey">
+                <th>Ambient</th>
+                <th>Breakbeat</th>
+                <th>Disco</th>
+                <th>Downtempo</th>
+            </tr>
+
+            <tr>
+                <td>Drone music</td>
+                <td>Acid breaks</td>
+                <td>Cosmic disco</td>
+                <td>Acid jazz</td>
+            </tr>
+
+            <tr>
+                <td>Ambient dub</td>
+                <td>Baltimore club</td>
+                <td>Disco polo</td>
+                <td>chill-out</td>
+            </tr>
+
+            <tr>
+                <td>Dark ambient</td>
+                <td>Big beat</td>
+                <td>Euro disco</td>
+                <td>New-age music</td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>Broken beat</td>
+                <td>italo disco</td>
+                <td>Trip hop</td>
+            </tr>
+            </table>
+            </div>
+    </div>
+  </div>
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">When Did Electronic Music Gain Popularity in Western Culture?</h1>
+      <p>Electronic music began to gain traction in the 1960's but became widely available to most people during the 1970's. The 1970's is when synthesizers began to be used in a lot of songs which boosted the attraction to this new genre of music. 
+      This video demonstrates some of the changes throughout electronic music over the years.
+     </p>  
+     <iframe width="854" height="480" src="https://www.youtube.com/embed/ZKlpoOZvdE4" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+
+ <!-- table -->
+  <div class="w3-container w3-margin">
+        <table class="w3-table-all w3-hoverable"> 
+            <tr class="w3-dark-grey">
+                <th>1970's</th>
+                <th>1980's</th>
+                <th>1990's</th>
+                <th>2000's</th>
+            </tr>
+
+            <tr>
+                <td>Synthpop and disco</td>
+                <td>The synth era</td>
+                <td>Dance music</td>
+                <td>EDM era</td>
+            </tr>
+
+            <tr>
+                <td>Kraftwerk</td>
+                <td>A-ha</td>
+                <td>Orbital</td>
+                <td>Tiesto</td>
+            </tr>
+
+            <tr>
+                <td>Giorgio Moroder</td>
+                <td>Depeche Mode</td>
+                <td>Halcyon</td>
+                <td>David Guetta</td>
+            </tr>
+
+            </table>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidenav
+var mySidenav = document.getElementById("mySidenav");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidenav, and add overlay effect
+function w3_open() {
+    if (mySidenav.style.display === 'block') {
+        mySidenav.style.display = 'none';
+        overlayBg.style.display = "none";
+    } else {
+        mySidenav.style.display = 'block';
+        overlayBg.style.display = "block";
+    }
+}
+
+// Close the sidenav with the close button
+function w3_close() {
+    mySidenav.style.display = "none";
+    overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>
